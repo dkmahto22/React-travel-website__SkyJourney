@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Loader } from "lucide-react";
 
-const API_KEY = "1ltPeI2gjpVlKuyu4bCni4C2dPR73l31";
-const API_SECRET = "eaJXOg87kgSrjvGn";
+const API_KEY = "";
+const API_SECRET = "";
 
 const getAccessToken = async () => {
   const params = new URLSearchParams();
