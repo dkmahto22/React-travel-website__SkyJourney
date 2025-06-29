@@ -346,7 +346,7 @@ const FlightSearch = ({ variant }) => {
           </select>
         </div>
 
-        <div>
+        <div className="col-span-2 md:col-span-1">
           <button
             type="submit"
             className="bg-blue-600 text-white px-3 py-2 md:py-3 rounded hover:bg-blue-700 transition w-full cursor-pointer"
