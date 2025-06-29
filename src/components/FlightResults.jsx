@@ -10,8 +10,8 @@ import FlightSearch from "./FlightSearch";
 const getAccessToken = async () => {
   const response = await axios.post("https://test.api.amadeus.com/v1/security/oauth2/token", new URLSearchParams({
     grant_type: "client_credentials",
-    client_id: "1ltPeI2gjpVlKuyu4bCni4C2dPR73l31", // Replace with your Amadeus client ID
-    client_secret: "eaJXOg87kgSrjvGn" // Replace with your Amadeus client secret
+    client_id: "", // Replace with your Amadeus client ID
+    client_secret: "" // Replace with your Amadeus client secret
   }));
   return response.data.access_token;
 };
