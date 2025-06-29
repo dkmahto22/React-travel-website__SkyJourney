@@ -29,8 +29,8 @@ const getAirlineName = async (iataCode) => {
   try {
     const response = await axios.post("https://test.api.amadeus.com/v1/security/oauth2/token", new URLSearchParams({
       grant_type: "client_credentials",
-      client_id: "1ltPeI2gjpVlKuyu4bCni4C2dPR73l31", // Fill in your Amadeus API credentials
-      client_secret: "eaJXOg87kgSrjvGn"
+      client_id: "", // Fill in your Amadeus API credentials
+      client_secret: ""
     }));
     const token = response.data.access_token;
     const res = await axios.get(`https://test.api.amadeus.com/v1/reference-data/airlines?airlineCodes=${iataCode}`, {
