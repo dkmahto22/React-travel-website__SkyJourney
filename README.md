@@ -1,6 +1,8 @@
 # SkyJourney - Travel Booking Website ( Overview)
 SkyJourney is a modern and responsive travel booking platform built with React. Designed for small travel businesses, it provides all necessary components to manage customer bookings, display travel routes, and integrate real-time flight search using Amadeus API.
 ## Screenshot 1
+![Home Screenshot](src/assets/images/skyjourney-home-page.png)
+## Screenshot 2
 ![Home Screenshot](src/assets/images/Screenshot_2.png)
 ## Screenshot 2
 ![Result Screenshot](src/assets/images/Screenshot_3.png)
